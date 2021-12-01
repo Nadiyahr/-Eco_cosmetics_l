@@ -17,19 +17,19 @@
 
       <div class="top-actions">
         <a href="#menu" class="icon icon--menu"></a>
-        <a href="#" class="logo">
+        <a href="#about" class="logo">
           <img
             src="./images/svg/logo.svg"
             alt="Logo"
             class="logo__img"
           >
         </a>
-        <a href="#bag" class="icon icon--shop"></a>
+        <a href="#shop" class="icon icon--shop"></a>
       </div>
 
       <nav class="nav page__nav">
         <div class="nav__logo">
-          <a href="#" class="logo nav__logo">
+          <a href="#about" class="logo nav__logo">
             <img
               src="./images/svg/logo.svg"
               alt="Logo"
@@ -62,7 +62,7 @@
           </ul>
         </div>
 
-        <a href="#bag" class="nav__bag">
+        <a href="#shop" class="nav__bag">
           <img
             src="./images/svg/shop.svg"
             alt="to shopping bag"
@@ -83,7 +83,7 @@
         </div>
 
         <div class="grid__item grid__item--desktop-2-6">
-          <div class="header__info">
+          <div class="header__info"  id="#header">
             <h1 class="header__title">
               Brand of eco&#8209;cosmetics
               <br>
@@ -94,12 +94,13 @@
               20% of sales at a wild bird shelter
             </p>
           </div>
-
-          <div class="button-cont">
-            <button class="button">
-                shop
-            </button>
-          </div>
+          <a href="#shop">
+            <div class="button-cont">
+              <button href="#shop" class="button">
+                  shop
+              </button>
+            </div>
+          </a>
         </div>
       </div>
     </header>
@@ -180,11 +181,11 @@
                 <p class="about__paragraph">
                   Our brand cosmetics are made from natural ingredients and we are promoting them to the masses. Shampoo, hair conditioner, soap - in recycled paper. Creams, oils, washing products in glass containers with recycled paper labels. No synthetics and microplastics in cosmetics. And the packaging from it can be returned for recycling or reused.
                 </p>
-                <p class="about__paragraph" id="more">
+                <p class="about__paragraph about__paragraph--hiden" id="more">
                   We are all neighbors of one big House. And we must protect what we have. Destroying everything around for the sake of consumerism and imaginary convenience, we destroy what does not belong to us. Be aware of your choice!
                 </p>
                 <div class="learn__link">
-                  <a href="#more" class="learn__link link">
+                  <a href="#more" class="link">
                     LEARN MORE
                   </a>
                 </div>
@@ -316,12 +317,13 @@
 
             </div>
 
-            <div class="button-cont button-cont--shop">
-              <button class="button button--shop">
-                  shop
-              </button>
-            </div>
-
+            <a href="#">
+              <div class="button-cont button-cont--shop">
+                <button class="button button--shop">
+                    shop
+                </button>
+              </div>
+            </a>
           </div>
         </div>
       </section>
@@ -360,12 +362,13 @@
                     LEARN MORE
                   </a>
                 </div>
-                <div class="button-cont">
-                  <button class="button">
-                    to contact us
-                  </button>
-
-                </div>
+                <a href="#contact">
+                  <div class="button-cont">
+                    <button class="button">
+                      to contact us
+                    </button>
+                  </div>
+                </a>
               </div>
             </div>
 
@@ -409,7 +412,7 @@
                     kaolin
                   </li>
                   <li class="powder__item">
-                    sivak <span class="powder__item">(Persian-salvador)</span>
+                    sivak <span class="powder__item--hiden">(Persian-salvador)</span>
                   </li>
                   <li class="powder__item">
                     calcium carbonate
